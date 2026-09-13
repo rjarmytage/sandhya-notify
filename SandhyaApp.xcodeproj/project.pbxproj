@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D40616DB6013605E71C29E7 /* DailySandhyaSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864ECDDF03A697FC1E9C3AA2 /* DailySandhyaSchedule.swift */; };
+		22A06CF5E97A822E1A7B935D /* Sandhya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F59D18C88EA2C6F9C35840F /* Sandhya.swift */; };
+		2BD09B7B49D4A33850B6BA64 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1C900E980EE3F351BA7CF99B /* PrivacyInfo.xcprivacy */; };
+		4E6CF15E69779D1B3B4361F4 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC64CE32D148A8A4994F972 /* AppCoordinator.swift */; };
+		52B44C42D6A3E06A2A9CA797 /* SolarCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80C4342B42BC7C4D028E3A /* SolarCalculator.swift */; };
+		5CE6FA014B1C07AF8CC1B639 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758150994AB60B1CFE5D5357 /* SettingsView.swift */; };
+		78B9DF59448E2FE4A0209A4C /* LocationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CCF1FE9F4A21885B86168F /* LocationPickerView.swift */; };
+		7E2FD961100906361E28CD65 /* SolarCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037C29FAFF4BFC53FDFBA215 /* SolarCalculatorTests.swift */; };
+		8003A79CF370C8CA868CABE4 /* LocationSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AD5B295FD28040824B600E /* LocationSearchService.swift */; };
+		8909106A6BD5030D4BA08D37 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17D62D3F210628EFB4F696 /* LocationManager.swift */; };
+		B10AF667A106A8993D073EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE70B7B8E1C55723580A28A7 /* Assets.xcassets */; };
+		B53167CC71D13002B578A639 /* SandhyaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD70E3CC4D223D59E0B7703 /* SandhyaApp.swift */; };
+		BF73E4B1BE07EC10E7AD5347 /* SavedLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9B5EC2B5AB1D433DA7735 /* SavedLocation.swift */; };
+		CE1FBA7F3B852FF688E170DB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80E34BE8C9589A8E07A108B /* HomeView.swift */; };
+		D826F6E6E575DDBABDA9CCB6 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46561625A7C471A83607BF5 /* NotificationScheduler.swift */; };
+		F95142B4709173CE8DF44C8C /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E5F4DB8C7D448F5792812 /* AppSettings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7564C16387CCD09C5BDEB2F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA8AADB0B25EA50762ED3DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4E60EC107A17EE5C9C9C40;
+			remoteInfo = SandhyaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037C29FAFF4BFC53FDFBA215 /* SolarCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarCalculatorTests.swift; sourceTree = "<group>"; };
+		15CCF1FE9F4A21885B86168F /* LocationPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerView.swift; sourceTree = "<group>"; };
+		1C900E980EE3F351BA7CF99B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1D4E5F4DB8C7D448F5792812 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		33AD5B295FD28040824B600E /* LocationSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchService.swift; sourceTree = "<group>"; };
+		3AC64CE32D148A8A4994F972 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		4B80C4342B42BC7C4D028E3A /* SolarCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarCalculator.swift; sourceTree = "<group>"; };
+		6C8A12935CCA402487C93963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6F59D18C88EA2C6F9C35840F /* Sandhya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandhya.swift; sourceTree = "<group>"; };
+		758150994AB60B1CFE5D5357 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		864ECDDF03A697FC1E9C3AA2 /* DailySandhyaSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySandhyaSchedule.swift; sourceTree = "<group>"; };
+		9EE162FD0CCFD5668372D46B /* SandhyaApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SandhyaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46561625A7C471A83607BF5 /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		AE70B7B8E1C55723580A28A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFD70E3CC4D223D59E0B7703 /* SandhyaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandhyaApp.swift; sourceTree = "<group>"; };
+		C3621C50CCF27EF390065A71 /* SandhyaAppTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SandhyaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD17D62D3F210628EFB4F696 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		EFE9B5EC2B5AB1D433DA7735 /* SavedLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLocation.swift; sourceTree = "<group>"; };
+		F80E34BE8C9589A8E07A108B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0DCF9EBC7CBC84ADD397ACB5 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				A46561625A7C471A83607BF5 /* NotificationScheduler.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		1EBDFA27F37A38395B80D1CB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3AC64CE32D148A8A4994F972 /* AppCoordinator.swift */,
+				AFD70E3CC4D223D59E0B7703 /* SandhyaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2AEB200B4D21D0E6D67831C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				864ECDDF03A697FC1E9C3AA2 /* DailySandhyaSchedule.swift */,
+				6F59D18C88EA2C6F9C35840F /* Sandhya.swift */,
+				4B80C4342B42BC7C4D028E3A /* SolarCalculator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		42A6DE035F3C249FF4CFF52C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F80E34BE8C9589A8E07A108B /* HomeView.swift */,
+				15CCF1FE9F4A21885B86168F /* LocationPickerView.swift */,
+				758150994AB60B1CFE5D5357 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46599718A79FA90B6CFA1975 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				DD17D62D3F210628EFB4F696 /* LocationManager.swift */,
+				33AD5B295FD28040824B600E /* LocationSearchService.swift */,
+				EFE9B5EC2B5AB1D433DA7735 /* SavedLocation.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		567FC13A6B8154CA2A56EE61 = {
+			isa = PBXGroup;
+			children = (
+				DD370AAC1BFA18D517617F1A /* SandhyaApp */,
+				62BC203221B9C9ED61AD400B /* SandhyaAppTests */,
+				D3ED147715BB6EC0FBA826A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B1F1CDBD2A215C790CCA258 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1D4E5F4DB8C7D448F5792812 /* AppSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		62BC203221B9C9ED61AD400B /* SandhyaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				037C29FAFF4BFC53FDFBA215 /* SolarCalculatorTests.swift */,
+			);
+			path = SandhyaAppTests;
+			sourceTree = "<group>";
+		};
+		D3ED147715BB6EC0FBA826A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EE162FD0CCFD5668372D46B /* SandhyaApp.app */,
+				C3621C50CCF27EF390065A71 /* SandhyaAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD370AAC1BFA18D517617F1A /* SandhyaApp */ = {
+			isa = PBXGroup;
+			children = (
+				6C8A12935CCA402487C93963 /* Info.plist */,
+				1EBDFA27F37A38395B80D1CB /* App */,
+				46599718A79FA90B6CFA1975 /* Location */,
+				2AEB200B4D21D0E6D67831C3 /* Models */,
+				0DCF9EBC7CBC84ADD397ACB5 /* Notifications */,
+				F531B2743D732BABD1A55BF5 /* Resources */,
+				5B1F1CDBD2A215C790CCA258 /* Settings */,
+				42A6DE035F3C249FF4CFF52C /* Views */,
+			);
+			path = SandhyaApp;
+			sourceTree = "<group>";
+		};
+		F531B2743D732BABD1A55BF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE70B7B8E1C55723580A28A7 /* Assets.xcassets */,
+				1C900E980EE3F351BA7CF99B /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E4E60EC107A17EE5C9C9C40 /* SandhyaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 194354183A756C9F3733A4E7 /* Build configuration list for PBXNativeTarget "SandhyaApp" */;
+			buildPhases = (
+				FD81CE544963CED59DEF39AC /* Sources */,
+				1E95E6BB7B9C774E756369CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SandhyaApp;
+			packageProductDependencies = (
+			);
+			productName = SandhyaApp;
+			productReference = 9EE162FD0CCFD5668372D46B /* SandhyaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF8B5B5DEB02E039CB3C5AF8 /* SandhyaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9FEF4A2151724C9068F6649 /* Build configuration list for PBXNativeTarget "SandhyaAppTests" */;
+			buildPhases = (
+				0EBEE2B41F5C2E3F7DAA9DE3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				451B43FEF68701CB1B85193D /* PBXTargetDependency */,
+			);
+			name = SandhyaAppTests;
+			packageProductDependencies = (
+			);
+			productName = SandhyaAppTests;
+			productReference = C3621C50CCF27EF390065A71 /* SandhyaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA8AADB0B25EA50762ED3DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = BDACC08F997ECF7C6F8500B3 /* Build configuration list for PBXProject "SandhyaApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 567FC13A6B8154CA2A56EE61;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D3ED147715BB6EC0FBA826A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E4E60EC107A17EE5C9C9C40 /* SandhyaApp */,
+				DF8B5B5DEB02E039CB3C5AF8 /* SandhyaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E95E6BB7B9C774E756369CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10AF667A106A8993D073EB9 /* Assets.xcassets in Resources */,
+				2BD09B7B49D4A33850B6BA64 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EBEE2B41F5C2E3F7DAA9DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2FD961100906361E28CD65 /* SolarCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD81CE544963CED59DEF39AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6CF15E69779D1B3B4361F4 /* AppCoordinator.swift in Sources */,
+				F95142B4709173CE8DF44C8C /* AppSettings.swift in Sources */,
+				1D40616DB6013605E71C29E7 /* DailySandhyaSchedule.swift in Sources */,
+				CE1FBA7F3B852FF688E170DB /* HomeView.swift in Sources */,
+				8909106A6BD5030D4BA08D37 /* LocationManager.swift in Sources */,
+				78B9DF59448E2FE4A0209A4C /* LocationPickerView.swift in Sources */,
+				8003A79CF370C8CA868CABE4 /* LocationSearchService.swift in Sources */,
+				D826F6E6E575DDBABDA9CCB6 /* NotificationScheduler.swift in Sources */,
+				22A06CF5E97A822E1A7B935D /* Sandhya.swift in Sources */,
+				B53167CC71D13002B578A639 /* SandhyaApp.swift in Sources */,
+				BF73E4B1BE07EC10E7AD5347 /* SavedLocation.swift in Sources */,
+				5CE6FA014B1C07AF8CC1B639 /* SettingsView.swift in Sources */,
+				52B44C42D6A3E06A2A9CA797 /* SolarCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		451B43FEF68701CB1B85193D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E4E60EC107A17EE5C9C9C40 /* SandhyaApp */;
+			targetProxy = 7564C16387CCD09C5BDEB2F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B0DE5A04F5841FA9F90C019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SandhyaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.armytage.sandhya;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AC75AA3092CC42006E6E44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		58865599CC7C5C54583DFFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A04E1FEE9AFB1C3B2E12C431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.armytage.sandhya.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandhyaApp.app/SandhyaApp";
+			};
+			name = Debug;
+		};
+		CC6438C80145B22EE1F9A055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SandhyaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.armytage.sandhya;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F14FA6C61E6F1352CCB7A24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.armytage.sandhya.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandhyaApp.app/SandhyaApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		194354183A756C9F3733A4E7 /* Build configuration list for PBXNativeTarget "SandhyaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0DE5A04F5841FA9F90C019 /* Debug */,
+				CC6438C80145B22EE1F9A055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BDACC08F997ECF7C6F8500B3 /* Build configuration list for PBXProject "SandhyaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58865599CC7C5C54583DFFD1 /* Debug */,
+				1AC75AA3092CC42006E6E44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E9FEF4A2151724C9068F6649 /* Build configuration list for PBXNativeTarget "SandhyaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04E1FEE9AFB1C3B2E12C431 /* Debug */,
+				F14FA6C61E6F1352CCB7A24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA8AADB0B25EA50762ED3DD /* Project object */;
+}
