@@ -1,13 +1,14 @@
-# App Store Submission Checklist — Sandhya
+# App Store Submission Checklist — Sandhya Notify
 
 Tracks the non-code requirements from the original brief. Nothing here blocks
 development; it matters at submission time.
 
 ## 1. Privacy policy URL
-Draft text is at [privacy-policy.md](privacy-policy.md). Needs to be published
-at a live, stable URL before submission (e.g. a simple GitHub Pages page or a
-one-page site) and that URL entered in App Store Connect. Fill in `[DATE]` and
-`[YOUR CONTACT EMAIL]` before publishing.
+Finalized text is at [privacy-policy.md](privacy-policy.md) (contact:
+sandhyanotifysupport@gmail.com). Still needs to be published at a live,
+publicly-reachable URL (no login/paywall — Apple's reviewers and app users
+both need to open it freely) before submission — e.g. GitHub Pages or any
+basic static host — and that URL entered in App Store Connect.
 
 ## 2. App Privacy "nutrition label" (App Store Connect → App Privacy)
 Declare:
@@ -33,7 +34,7 @@ calculate local sunrise/sunset/solar noon times... never stored or transmitted")
 ## 4. App Review Notes (App Store Connect → Version → App Review Information)
 Suggested draft:
 
-> Sandhya requests "Always" location access because its core feature — automatically
+> Sandhya Notify requests "Always" location access because its core feature — automatically
 > recalculating today's sandhya (prayer) times as the user travels to a new city or
 > region — needs to keep working even when the app isn't open. We use CoreLocation's
 > significant-change location service (not continuous GPS tracking) specifically to

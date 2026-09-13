@@ -54,6 +54,8 @@ struct SettingsView: View {
                     }
                     .pickerStyle(.wheel)
                     .labelsHidden()
+                    .frame(height: 110)
+                    .clipped()
                     .onChange(of: settings.leadTimeMinutes) { _, _ in coordinator.settingsDidChange() }
                 } header: {
                     Text("Advance Notice")

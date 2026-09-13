@@ -1,9 +1,9 @@
-# Privacy Policy — Sandhya
+# Privacy Policy — Sandhya Notify
 
-*Last updated: [DATE]*
+*Last updated: September 13, 2026*
 
-Sandhya ("the app") is designed to work entirely on your device, with no account,
-no server, and no third-party analytics.
+Sandhya Notify ("the app") is designed to work entirely on your device, with no
+account, no server, and no third-party analytics.
 
 ## What information the app uses
 
@@ -15,7 +15,7 @@ as you travel to a new place.
 
 ## What the app does not do
 
-- Your location is **never transmitted off your device**. Sandhya has no server
+- Your location is **never transmitted off your device**. Sandhya Notify has no server
   and makes no network requests containing your location.
 - Your location is **never stored** beyond what's needed to show today's times;
   it is not logged, retained, or included in backups in an identifiable form.
@@ -25,19 +25,19 @@ as you travel to a new place.
 
 ## Your choices
 
-You can switch Sandhya to **Manual location mode** at any time in Settings and
+You can switch Sandhya Notify to **Manual location mode** at any time in Settings and
 pick a fixed place yourself (by search or by tapping a map) instead of using
 your device's location. In Manual mode, the app does not access your device's
 location at all.
 
 You can also revoke location access entirely at any time in the Settings app
-(Settings → Privacy & Security → Location Services → Sandhya), or from
-Sandhya's own Settings screen. If access is denied, the app falls back to
+(Settings → Privacy & Security → Location Services → Sandhya Notify), or from
+Sandhya Notify's own Settings screen. If access is denied, the app falls back to
 Manual location mode.
 
 ## Notifications
 
-Sandhya schedules notifications locally, on your device, using Apple's standard
+Sandhya Notify schedules notifications locally, on your device, using Apple's standard
 notification system. No notification content or scheduling data leaves your
 device.
 
@@ -48,4 +48,4 @@ with a new "last updated" date.
 
 ## Contact
 
-Questions about this policy can be sent to: [YOUR CONTACT EMAIL]
+Questions about this policy can be sent to: sandhyanotifysupport@gmail.com
