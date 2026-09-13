@@ -36,8 +36,15 @@ struct HomeView: View {
                     .padding()
                 }
             }
-            .navigationTitle("Sandhya")
+            .navigationTitle("Sandhya Notify")
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("Sandhya Notify")
+                        .font(.system(size: 28, weight: .bold))
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.7)
+                }
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
                         showingSettings = true

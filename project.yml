@@ -23,7 +23,7 @@ targets:
     info:
       path: SandhyaApp/Info.plist
       properties:
-        CFBundleDisplayName: Sandhya
+        CFBundleDisplayName: Sandhya Notify
         LSRequiresIPhoneOS: true
         UILaunchScreen: {}
         UISupportedInterfaceOrientations:

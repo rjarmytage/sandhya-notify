@@ -12,6 +12,7 @@ struct SandhyaApp: App {
         WindowGroup {
             HomeView()
                 .environment(coordinator)
+                .preferredColorScheme(coordinator.settings.forceDarkMode ? .dark : nil)
                 .task {
                     _ = await NotificationScheduler.requestAuthorizationIfNeeded()
                     coordinator.start()

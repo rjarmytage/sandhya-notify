@@ -92,6 +92,12 @@ struct SettingsView: View {
                 } footer: {
                     Text("Used only to calculate local sunrise, sunset, and solar noon. Never stored remotely or used for tracking.")
                 }
+
+                Section {
+                    Toggle("Dark Mode", isOn: $settings.forceDarkMode)
+                } footer: {
+                    Text("Off follows your device's system appearance. On always uses dark mode.")
+                }
             }
             .navigationTitle("Settings")
             .toolbar {

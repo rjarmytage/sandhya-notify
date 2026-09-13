@@ -43,6 +43,12 @@ final class AppSettings {
         }
     }
 
+    /// When false (default), the app follows the device's system appearance.
+    /// When true, it's forced into dark mode regardless of the system setting.
+    var forceDarkMode: Bool {
+        didSet { defaults.set(forceDarkMode, forKey: Keys.forceDarkMode) }
+    }
+
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults
 
@@ -63,6 +69,8 @@ final class AppSettings {
         } else {
             manualLocation = nil
         }
+
+        forceDarkMode = defaults.object(forKey: Keys.forceDarkMode) as? Bool ?? false
     }
 
     func isEnabled(_ type: SandhyaType) -> Bool {
@@ -83,5 +91,6 @@ final class AppSettings {
         static let leadTimeMinutes = "leadTimeMinutes"
         static let locationMode = "locationMode"
         static let manualLocation = "manualLocation"
+        static let forceDarkMode = "forceDarkMode"
     }
 }
