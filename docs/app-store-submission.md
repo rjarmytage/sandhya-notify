@@ -43,9 +43,15 @@ Suggested draft:
 > pick a fixed location manually in Settings.
 
 ## 5. Screenshots
-3–6 recommended, showing: Home screen (times + current/next indicator), Settings
-screen (toggles), and the manual location picker. Capture at the current
-required device size per App Store Connect at submission time.
+Three captured so far in [screenshots/](screenshots/), at native 6.9" resolution
+(1320×2868, iPhone 17 Pro Max) — the current largest iPhone class:
+- `01-home.png` — today's times with the "Next" banner
+- `02-settings.png` — toggles, advance-notice wheel, location mode
+- `03-location-picker.png` — manual location search/map picker
+
+3–6 is standard practice; these three cover the core flows. Re-verify the
+exact required pixel dimensions in App Store Connect at submission time, in
+case they've changed.
 
 ## 6. Xcode/SDK version
 No action needed — build with whatever current Xcode is at submission time.
