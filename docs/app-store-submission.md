@@ -4,11 +4,10 @@ Tracks the non-code requirements from the original brief. Nothing here blocks
 development; it matters at submission time.
 
 ## 1. Privacy policy URL
-Finalized text is at [privacy-policy.md](privacy-policy.md) (contact:
-sandhyanotifysupport@gmail.com). Still needs to be published at a live,
-publicly-reachable URL (no login/paywall — Apple's reviewers and app users
-both need to open it freely) before submission — e.g. GitHub Pages or any
-basic static host — and that URL entered in App Store Connect.
+Live at **https://rjarmytage.github.io/sandhya-notify/privacy-policy.html**
+(hosted via GitHub Pages from this repo's `/docs` folder). Contact address:
+sandhyanotifysupport@gmail.com. Enter this URL in App Store Connect at
+submission time.
 
 ## 2. App Privacy "nutrition label" (App Store Connect → App Privacy)
 Declare:
