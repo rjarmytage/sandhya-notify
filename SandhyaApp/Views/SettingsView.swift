@@ -6,7 +6,7 @@ struct SettingsView: View {
     @Environment(\.dismiss) private var dismiss
     @State private var showingLocationPicker = false
 
-    private static let leadTimeOptions = [0, 5, 10, 15, 30]
+    private static let leadTimeOptions = Array(0...59)
 
     var body: some View {
         @Bindable var settings = coordinator.settings
@@ -44,13 +44,19 @@ struct SettingsView: View {
                 }
 
                 Section {
-                    Picker("Advance Notice", selection: $settings.leadTimeMinutes) {
+                    Picker(selection: $settings.leadTimeMinutes) {
                         ForEach(Self.leadTimeOptions, id: \.self) { minutes in
-                            Text(minutes == 0 ? "At start of window" : "\(minutes) min before")
+                            Text(minutes == 0 ? "At start" : "\(minutes) min")
                                 .tag(minutes)
                         }
+                    } label: {
+                        EmptyView()
                     }
+                    .pickerStyle(.wheel)
+                    .labelsHidden()
                     .onChange(of: settings.leadTimeMinutes) { _, _ in coordinator.settingsDidChange() }
+                } header: {
+                    Text("Advance Notice")
                 } footer: {
                     Text("How far ahead of a sandhya window's start you'd like to be notified.")
                 }
